@@ -13,8 +13,8 @@
 */.nrepl-port
 */.cpcache/
 *.calva
-*/.clj-kondo/
-*/.lsp/
+*.clj-kondo/
+*.lsp/
 */profiles.clj
 */.lein-*
 */.nrepl-port
