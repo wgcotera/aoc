@@ -21,7 +21,7 @@
 
 (def plays-1
   "Results of rounds according to part 1"
-  (zipmap ["B X" "C Y" "A Z" "A X" "B Y" "C Z" "C X" "A Y" "B Z"] [1 2 3 4 5 6 7 8 9]))
+  (zipmap ["B X" "C Y" "A Z" "A X" "B Y" "C Z" "C X" "A Y" "B Z"] (range 1 10)))
 
   ;; PART 2
 
@@ -33,7 +33,7 @@
 
 (def plays-2
   "Results of rounds according to part 2"
-  (zipmap ["B X" "C X" "A X" "A Y" "B Y" "C Y" "C Z" "A Z" "B Z"] [1 2 3 4 5 6 7 8 9]))
+  (zipmap ["B X" "C X" "A X" "A Y" "B Y" "C Y" "C Z" "A Z" "B Z"] (range 1 10)))
 
 
 (defn part-01
