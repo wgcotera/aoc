@@ -1,10 +1,10 @@
 package aoc
 
 import scala.io.Source
-
 object Util{
-    def readInputFile(day: String) = {
+
+    def readInputFile(day: String): Iterator[String] = {
         val file = getClass.getClassLoader.getResource(s"day_${day}.in").getFile
-       Source.fromFile(file).getLines
+        Source.fromFile(file).getLines
     }
 }
