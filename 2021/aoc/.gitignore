@@ -1,0 +1,34 @@
+/.bsp/
+target/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# SBT files
+.cache/
+.history
+.sbt/
+.lib/
+.target/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# IntelliJ project files
+.idea/
+
+# Scala build artifacts
+*.jar
+*.war
+*.ear
+
+# Mac OSX files
+.DS_Store
+
+# Sbt native packager
+target/packager

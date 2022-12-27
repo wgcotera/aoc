@@ -10,7 +10,7 @@
 */.lein-repl-history
 */.lein-plugins/
 */.lein-failures
-*/.nrepl-port
+/.nrepl-port
 */.cpcache/
 *.calva
 *.clj-kondo/
