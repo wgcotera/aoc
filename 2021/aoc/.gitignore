@@ -1,34 +1,28 @@
-/.bsp/
-target/
+# IntelliJ
+*.idea
+*.iml
+*.iws
+*.ipr
 
-# Compiled class files
+# Vscode
+*.vscode
+
+# Scala
 *.class
-
-# Log files
 *.log
+*.lock
+*.bsp
 
-# SBT files
-.cache/
-.history
-.sbt/
-.lib/
-.target/
+# sbt
+target/
+project/project/
+project/target/
+project/boot/
+project/lib_managed/
+project/lib/
 
-# Eclipse project files
-.classpath
-.project
-.settings/
+# Metals
+*.metals
 
-# IntelliJ project files
-.idea/
-
-# Scala build artifacts
-*.jar
-*.war
-*.ear
-
-# Mac OSX files
-.DS_Store
-
-# Sbt native packager
-target/packager
+# Resources
+*resources
