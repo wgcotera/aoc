@@ -1,6 +1,5 @@
 package io.github.wgcotera
 
-import scala.collection.immutable.Seq
 import Util.readInputFile
 
 def countIncreasingPairs(data: Seq[Int]): Int = {
@@ -18,6 +17,7 @@ def countIncreasingTriples(data: Seq[Int]): Int = {
 case class Day01(puzzleInput: String) extends AoC[Int, Int] {
 
     override def part1(): Int = countIncreasingPairs(puzzleInput.split("\n").map(s => s.toInt).toList)
+
     override def part2(): Int = countIncreasingTriples(puzzleInput.split("\n").map(s => s.toInt).toList)
 }
 
