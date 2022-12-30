@@ -1,6 +1,6 @@
 package io.github.wgcotera
 
-import Util.readInputFile
+import Util.getPuzzleInput
 
 def countIncreasingPairs(data: Seq[Int]): Int = {
     val pairs = data.zip(data.tail)

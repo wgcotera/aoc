@@ -1,6 +1,6 @@
 package io.github.wgcotera
 
-import Util.readInputFile
+import Util.getPuzzleInput
 
 import scala.io.StdIn
 
@@ -13,7 +13,7 @@ import scala.io.StdIn
 
     try {
         val clazz = Class.forName(dayClass)
-        val instance = clazz.getDeclaredConstructor(classOf[String]).newInstance(readInputFile(dayFormatted))
+        val instance = clazz.getDeclaredConstructor(classOf[String]).newInstance(getPuzzleInput(day))
 
         val part1Method = clazz.getMethod(s"part1")
         val part2Method = clazz.getMethod(s"part2")

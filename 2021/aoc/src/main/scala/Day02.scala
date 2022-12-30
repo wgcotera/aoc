@@ -1,6 +1,6 @@
 package io.github.wgcotera
 
-import Util.readInputFile
+import Util.getPuzzleInput
 
 import java.util
 import scala.util.matching.Regex
